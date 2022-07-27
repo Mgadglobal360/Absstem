@@ -1,0 +1,433 @@
+@media (max-width: 2560px) and (min-height: 1921px){
+	.absstem_product .container{ padding-left: 17.8%;}
+	.absstem_product .right_panel{ padding-right: 29%;}
+}
+@media (max-width: 1920px){
+	
+}
+@media(max-width:1640px){
+	.container{ max-width: 1250px;}
+	.navigation > ul > li{ margin-left: 20px;}
+	.banner_section .overlay{ top: 52%;}
+	.banner_section .copy_block h1{ font-size: 70px; line-height: 80px;}
+	p{ font-size: 14px; line-height: 24px;}
+	.scroll_down a .point{ width: 16px; left: -8px;}
+	.who_we_are .heading h2{ font-size: 40px;}
+	.heading h3, .heading h4{ font-size: 90px; line-height: 100px;}
+	.wwa_wrap .copy_block ul li p{ line-height: 24px;}
+	.story_block ul li > a h3{ font-size: 30px;}
+	.heading h2{ font-size: 30px;}
+	.product_carousel .item .product_img > img{ max-width: 370px;}
+	.certificate_carousel .item > img{ max-width: 160px;}
+	.partner_section .copy_block ul > li span{ font-size: 40px;}
+	.partner_section .copy_block ul > li{ font-size: 24px;}
+	.partner_section .copy_block ul{ padding-top: 30px;}
+	.range_block{ padding: 25px;}
+	.total_bloack{ padding: 25px 0;}
+	.assurance_section .shield_block > img{ max-width: 300px;}
+	footer .footer_list > li > a, footer .footer_list > li, footer h5{ font-size: 14px;}
+	footer h3{ font-size: 20px;}
+	.bottom_footer ul > li > a{ font-size: 14px;}
+	.form_wrapper .enq_btn .enq_img{ width: 50px;}
+	.form_wrapper{ padding-left: 50px;}
+	.form_wrapper .enq_btn span{ top: 15px;}
+	
+	.contact_section p{ font-size: 18px; line-height: 35px;}
+	.contact_list > li{ font-size: 18px; line-height: 30px;}
+	.contact_list > li h4 span{ font-size: 18px;}
+	.contact_section .form-control{ font-size: 13px;}
+	
+	.absstem_product .container{ padding-left: 12%;}
+	.absstem_product .right_panel{ padding-right: 18%;}
+	.product_nav > li > a span{ font-size: 20px; line-height: 60px; padding: 0 30px;}
+	.product_nav > li > a span .fa{ font-size: 16px; line-height: 60px;}
+	.feature_list > li .inner p{ font-size: 14px; line-height: 24px;}
+	.benefit_list > li h5{ font-size: 14px; line-height: 20px;}
+	.absstem_product h4 span{ font-size: 24px;}
+	.list-1 > li{ font-size: 14px; line-height: 20px;}
+	.td_panel h6{ font-size: 18px;}
+	.compressor_panel .block .copy_block{ padding: 10px 30px;}
+	
+	.shield_list > li .inner .shadow_left{ border-top-width: 115px; border-bottom-width: 115px; border-right-width: 60px;}
+	.shield_list > li .inner::before{ border-top-width: 115px; border-bottom-width: 115px; border-right-width: 60px;}
+	.shield_list > li .inner .square{ width: 53%; height: 230px}
+	.shield_list > li .inner .copy_block h4{ font-size: 50px; line-height: 50px; padding-bottom: 10px;}
+	.shield_list > li .inner .icon{ width: 70px; height: 70px; top: 10px; left: 15px;}
+	.shield_list > li .inner .icon img{ width: 30px;}
+	.shield_list > li .inner .shadow_right{ border-top-width: 115px; border-bottom-width: 115px; border-left-width: 60px;}
+	.shield_list > li .inner::after{ border-top-width: 115px; border-bottom-width: 115px; border-left-width: 60px;}
+	.shield_list > li .back_shadow{ right: 20px; width: 100px; height: 130px;}
+	.shield_list > li .back_shadow::after{ border-top-width: 65px; border-bottom-width: 65px; border-left-width: 35px; right: -35px;}
+	.absstem_shield p{ font-size: 14px; line-height: 24px;}
+	.custom_table > ul > li > .col > .data{ font-size: 14px;}
+	.custom_table > ul > li > .col > .data span > img{ width: 16px;}
+	.absstem_support p{ font-size: 14px; line-height: 24px;}
+	.amc_section ul > li{ font-size: 14px; line-height: 24px;}
+	.amc_section h6{ font-size: 14px; line-height: 24px;}
+	.about_banner h4 span{ font-size: 24px;}
+	.about_banner h5{ font-size: 20px;}
+	.about_banner h5 span{ font-size: 40px; padding-right: 10px;}
+	.city_list{ margin: 0 -5px; flex-wrap: wrap;}
+	.city_list > li{ padding: 0 5px 10px;}
+	.city_list > li > a{ font-size: 14px; text-align: center; padding: 0 20px;}
+	.reg_section p a, .about_partner p a{ font-size: 14px;}
+	.timeline_list > li .copy .inner p{ line-height: 24px;}
+	.founder_wrap .founder_block .name_block h3{ font-size: 30px;}
+	.founder_wrap .founder_block .name_block p{ font-size: 18px;}
+	.founder_wrap .founder_block .copy_block .inner{ padding: 15px 15px 0;}
+	.founder_wrap .founder_block .name_block{ padding: 110px 0 0 20px;}
+	.founder_wrap .founder_block.even .name_block{ padding: 110px 20px 0 0}
+	.founder_wrap .founder_block{ padding: 0 15px 0 0}
+	.founder_wrap .founder_block.even{ padding: 0 0 0 15px}
+}
+
+@media(max-width:1440px){
+	.absstem_product .container{ padding-left: 6.5%;}
+	.absstem_product .right_panel{ padding-right: 9%;}
+	.product_nav > li > a span{ font-size: 18px; line-height: 54px;}
+	.product_nav > li > a span .fa{ line-height: 54px;}
+	
+}
+
+@media(max-width:1366px){
+	.absstem_product .container{ padding-left: 5%;}
+	.absstem_product .right_panel{ padding-right: 7%;}
+}
+
+@media(max-width:1280px){
+	.absstem_product .container{ padding-left: 2%;}
+	.absstem_product .right_panel{ padding-right: 3%;}
+}
+
+@media(max-width:1279px){
+	.logo img{ height: 50px;}
+	.navigation > ul > li > a{ font-size: 13px;}
+	.navigation > ul > li:last-child{ margin-left: 15px;}
+	.navigation > ul > li:last-child > a{ font-size: 16px; padding-left: 15px;}
+	.banner_section .top_animation{ width: 500px}
+	.banner_section .top_animation > img{ width: 100%;}
+	.scroll_down{ left: 30px; bottom: 10px;}
+	.banner_section .copy_block h1{ font-size: 50px; line-height: 60px;}
+	.wwa_wrap .head_block{ width: 100%;}
+	.wwa_wrap .copy_block{ width: 100%; padding:  0;}
+	.product_carousel .item .product_img{ width: 33%;}
+	.product_carousel .item .product_des{ width: 67%; padding-left: 50px;}
+	.product_carousel .item .product_img .shadow{ width: 100px; height: 100px;}
+	.who_we_are{ padding: 60px 0;}
+	.partner_section .copy_block{ padding-right: 0; padding-bottom: 50px;}
+	.partner_section .map_block{ position: relative; top: 0; display: inline-block;}
+	.partner_section{ padding: 60px 0;}
+	.center_div{ text-align: center; margin-bottom: 0;}
+	.stories_section{ padding: 0 0 60px;}
+	.calc_block{ width: 100%; padding-right: 0;}
+	.stories_block{ width: 100%;}
+	.contact_section .col-sm-6{ width: 100%; padding-bottom: 50px;}
+	.contact_section .col-sm-6 .col-sm-6{ width: 50%; padding-bottom: 0;}
+	.roi_section{ padding: 60px 0;}
+	.calc_block .r_block{ border-right: 2px solid #bbb; border-bottom: none; border-radius: 20px 20px 0 0;}
+	.total_bloack{ width: 100%; border-radius: 0 0 20px 20px;}
+	.assurance_section{ padding: 30px 0;}
+	.heading h3, .heading h4{ transform: none !important;}
+	.roi_section .heading h2, .partner_section .heading h2{ bottom: 0;}
+	.assurance_section .copy_block .heading h2, .stories_section .heading h2{ bottom: 0;}
+	.contact_section .contact_left{ padding-right: 15px;}
+	.contact_section .contact_right{ padding-left: 15px;}
+	
+	.absstem_product .container{ padding-left: 15px;}
+	.absstem_product .right_panel{ padding-right: 15px;}
+	.make_me_sticky{ top: 80px;}
+	.absstem_product{ padding: 60px 0;}
+	.product_nav > li > a span{ padding: 0 15px; font-size: 14px; line-height: 40px;}
+	.product_nav > li > a span .fa{ line-height: 40px; font-size: 12px;}
+	.absstem_product .pm_panel{ padding-bottom: 30px;}
+	.f_panel{ padding-bottom: 10px;}
+	.feature_list > li{ width: 33.33%;}
+	.benefit_list > li{ width: 33.33%;}
+	.b_panel{ padding-bottom: 30px;}
+	.psa_panel{ padding: 60px 0 20px 20px; margin-bottom: 40px;}
+	.ed_wrap{ margin: 40px -15px 0;}
+	.ed_wrap .col-6{ padding: 0 15px 30px}
+	.ed_wrap .inner{ padding: 15px;}
+	.td_wrap{ margin: 30px -15px 0;}
+	.td_wrap .col-6{ padding: 0 15px 30px;}
+	.td_panel h6{ font-size: 16px; line-height: normal;}
+	.td_panel{ padding-bottom: 60px;}
+	.certificate_panel{ padding: 60px 0 30px 20px; margin-bottom: 40px;}
+	.certificate_panel .certificate_list > li{ width: 33.33%; padding: 0 10px 30px;}
+	.compressor_panel{ padding: 20px 0 30px;}
+	.compressor_panel .block .copy_block{ padding: 10px 15px;}
+	.compressor_panel .block{ margin-bottom: 30px;}
+	.advantages_panel{ padding: 60px 0 60px 20px; margin-bottom: 40px;}
+	.applications_panel{ padding: 20px 0 30px;}
+	.applications_panel .block{ margin-bottom: 30px;}
+	.applications_panel .block .copy_block{ padding-right: 15px;}
+	.applications_panel .block.even .copy_block{ padding-left: 15px;}
+	
+	.absstem_shield{ padding: 60px 0;}
+	.absstem_protect{ padding: 60px 0 0; background-image: none; background-color: #fff;}
+	.absstem_protect .pic_block{ display: block; border: 1px solid #a1a1a1; margin: 20px 0;}
+	.absstem_protect h4{ padding-top: 0;}
+	.custom_table{ max-width: 100%;}
+	.amc_section{ padding: 60px 0 30px; background-image: none !important;}
+	.amc_section picture{ display: block; margin-bottom: 20px; border: 1px solid #a1a1a1;}
+	.amc_section .copy_block{ padding-left: 0;}
+	.shield_section{ padding: 0 0 30px;}
+	.shield_list{ margin: 0 -15px;}
+	.shield_list > li{ padding: 0 15px 30px; width: 50%; text-align: center;}
+	.shield_list > li .outer_wrap{ width: 100%; max-width: 255px; display: inline-block;}
+	.absstem_support{ padding: 60px 0;}
+	.absstem_support h4 span, .amc_section h4 span{ font-size: 25px;}
+	header::before{ height: 150%;}
+	
+	.about_banner{ padding: 120px 0 60px; position: relative; z-index: 10;}
+	.about_banner .tab-content{ padding: 20px 0 0;}
+	.client_section{ padding: 60px 0;}
+	.client_list > li{ width: 20%;}
+	.gallery_section{ padding: 60px 0;}
+	.reg_section{ padding: 0 0 30px; background-image: none;}
+	.reg_section .pic_block{ display: block; margin-bottom: 20px; border: 1px solid #a1a1a1;}
+	.reg_section .copy_block{ padding-right: 0;}
+	.about_partner{ padding: 0 0 30px; background-image: none;}
+	.about_partner .pic_block{ display: block; margin-bottom: 20px; border: 1px solid #a1a1a1;}
+	.about_partner .copy_block{ padding-left: 0;}
+	.wwa_wrap .img_block{ width: 100%; padding-top: 30px;}
+	.svm_section{ padding: 60px 0;}
+	.timeline_section{ padding: 60px 0;}
+	.timeline_list > li h3{ font-size: 35px;}
+	.founder_section{ padding: 60px 0;}
+	.founder_wrap .founder_block .name_block{ padding-top: 0;}
+	.founder_wrap .founder_block.even .name_block{ padding-top: 0;}
+	.founder_wrap .founder_block .img_block{ width: 50%;}
+	.founder_wrap .founder_block .name_block{ width: 50%;}
+	.we_serve{ padding: 60px 0;}
+	.join_section{ padding-bottom: 60px;}
+	
+}
+
+@media(max-width:1023px){
+	.banner_section .top_animation, .form_wrapper .enq_btn, .scroll_down{ display: none;}
+	.form_wrapper{ padding-left: 0; right: auto; left: 50%; transform: translate(-50%, 100%); top: auto; bottom: 0; width: 280px;} 
+	.form_wrapper.active{ padding-left: 0; bottom: 60px; transform: translate(-50%, 0);}
+	.form_block{ border-radius: 15px; border-right: 2px solid #00aeeb;}
+	.form_block .form-group{ margin-bottom: 10px;}
+	.form_block .btn_wrap{ margin-top: 0;}
+	.form_block .inner{ padding: 40px 20px 20px;}
+	.close_form{ display: block; position: absolute; left: 0; top: 0; width: 40px; line-height: 40px; text-align: center; z-index: 10;}
+	.form_block::before{ background-color: rgb(0, 80, 158);}
+	
+	.navigation{ position: fixed; right: 50px; width: calc(100% - 50px);  overflow-y: auto; transform: translate(-50%, 100%); transition: .5s; bottom: 0; left: 50%; border: 2px solid #0c4ca3; border-radius: 10px; 
+		background: #f7f7f7;
+		background: -moz-linear-gradient(left,  #f7f7f7 0%, #ededed 100%);
+		background: -webkit-linear-gradient(left,  #f7f7f7 0%,#ededed 100%);
+		background: linear-gradient(to right,  #f7f7f7 0%,#ededed 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ededed',GradientType=1 );
+	}
+	.navigation.open{ transform: translate(-50%, 0); bottom: 60px;}
+	.navigation > ul{ padding: 20px;}
+	.navigation > ul > li{ width: 100%; margin-left: 0; margin-bottom: 10px;}
+	.navigation > ul > li:last-child{ margin-bottom: 0; display: none;}
+	.navigation > ul > li > a{ color: #52413b; font-weight: 600; font-size: 14px;}
+	.navigation > ul > li > a::before{ background-color: #52413b;}
+	
+	header{ padding: 20px 0; text-align: center;}
+	.navbar_header{ float: none; display: inline-block;}
+	
+	.bottom_fixed{ display: block; position: fixed; bottom: 0; width: 100%; left: 0; z-index: 99; padding: 0 20px 10px;}
+	.bottom_fixed ul{ float: left; width: 100%; border-radius: 20px;
+	background: rgb(28,173,228);
+	background: -moz-linear-gradient(left,  rgba(28,173,228,1) 0%, rgba(12,76,163,1) 100%);
+	background: -webkit-linear-gradient(left,  rgba(28,173,228,1) 0%,rgba(12,76,163,1) 100%);
+	background: linear-gradient(to right,  rgba(28,173,228,1) 0%,rgba(12,76,163,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1cade4', endColorstr='#0c4ca3',GradientType=1 );
+	}
+	.bottom_fixed ul > li{ float: left;}
+	.bottom_fixed ul > li:first-child{ border-right: 1px solid #fff;}
+	.bottom_fixed ul > li > a{ float: left; color: #fff; width: 50px; line-height: 40px; font-size: 20px; text-align: center; padding-left: 10px;}
+	.bottom_fixed ul > li:last-child{ float: right; border-left: 1px solid #fff;}
+	.bottom_fixed ul > li.enq{ width: calc(100% - 104px);}
+	.bottom_fixed ul > li.enq a{ width: 100%; padding: 0;}
+	
+	p{ font-size: 13px; line-height: 20px;}
+	.banner_section .copy_block{ padding: 0 20px;}
+	.banner_section .copy_block h1{ font-size: 30px; line-height: 40px;}
+	.banner_section .copy_block p br{ display: none;}
+	.heading{ margin-bottom: 20px;}
+	.who_we_are .heading h2{ font-size: 30px;}
+	.heading h3, .heading h4{ font-size: 60px; line-height: normal;}
+	.story_block ul li > a:hover{ box-shadow: none;}
+	.story_block ul li{ padding: 0 0 33px;}
+	.wwa_carousel .owl-dots{ position: static; margin-top: 30px;}
+	.story_block{ padding-top: 40px;}
+	.heading h2{ bottom: 0;}
+	.owl-carousel .owl-nav [class*="owl-"] img{ width: 14px;}
+	.product_carousel{ padding: 0 20px;}
+	.assurance_section{ padding: 60px 0 90px;}
+	.assurance_section .copy_block{ width: 100%; padding-bottom: 20px; position: relative;}
+	.assurance_section .copy_block::before { filter: blur(60px); content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #fff;}
+	.assurance_section .shield_block{ width: 100%;}
+	.assurance_section .shield_block > img{ max-width: 200px;}
+	.story_carousel .owl-nav{ top: auto; bottom: 0;}
+	.story_carousel{ padding: 0;}
+	.story_carousel .logo_img{ margin-bottom: 20px;}
+	.story_carousel .logo_img > img{ width: 100%; max-width: 200px;}
+	.story_carousel{ padding-top: 20px;}
+	footer .flexbox .col-3:last-child{ width: 100%; padding-bottom: 30px;}
+	footer .flexbox .col-3{ width: 33.33%;}
+	.newsletter{ margin-bottom: 20px;}
+	.bottom_footer{ padding-bottom: 70px; text-align: center;}
+	.float-left{ width: 100%;}
+	.float-right{ width: 100%; order: -1; padding-bottom: 15px;}
+	.bottom_footer ul{ float: none; display: inline-block;}
+	.bottom_footer .container { display: flex; flex-wrap: wrap;}
+	.contact_map > iframe{ height: 400px;}
+	.contact_section{ padding: 30px 0;}
+	.location_section .img_block{ width: 100%;}
+	.location_section .copy_block{ position: static; padding-top: 30px;}
+	.location_section .copy_block .col-md-6{ padding-left: 15px;}
+	.location_section{ padding-bottom: 30px;}
+	.contact_list > li{ padding-bottom: 30px;}
+	.product_section{ padding: 10px 0 60px;}
+	.certification_section{ padding: 60px 0;}
+	.stories_section .flexbox{ display: block;}
+	.testimonial_imgblock{ width: 100%; margin-bottom: 30px;}
+	.testimonial_copyblock{ width: 100%; padding-left: 0;}
+	.testimonial_imgblock .heading{ display: block;}
+	.testimonial_copyblock .heading{ display: none;}
+	
+	.absstem_product .container{ padding: 0;}
+	.absstem_product .row .col-sm-3{ display: none;}
+	.absstem_product .row .col-sm-9{ padding: 0; width: 100%;}
+	.absstem_product .right_panel{ padding-left: 15px; padding-right: 15px;}
+	.psa_panel, .certificate_panel, .advantages_panel{ border-radius: 0;}
+	.timeline_list > li .copy .inner h3{ display: block;}
+	.timeline_list > li .year{ display: none;}
+	.timeline_list > li .copy{ width: 100%; padding-left: 167px;}
+	.timeline_list > li .icon{ left: 0; transform: none;}
+	.timeline_list::before{ left: 63px; transform: none;}
+	.timeline_list > li .copy .inner{ padding: 15px;}
+	.timeline_list > li.even .copy .inner{ padding: 15px; border-radius: 0 15px 15px 0;}
+	.founder_wrap .founder_block{ width: 50%; padding: 0 15px 0 0; margin-bottom: 30px;}
+	.founder_wrap .founder_block.even{ padding: 0 0 0 15px;}
+	.founder_wrap .founder_block .img_block{ width: 100%;}
+	.founder_wrap .founder_block .name_block{ width: 100%; padding: 15px 0 0;}
+	.founder_wrap .founder_block.even .name_block{ padding: 15px 0 0;}
+	.founder_wrap .founder_block .copy_block{ position: static; padding: 0;}
+	.founder_wrap .founder_block.even .img_block{ order: 0;}
+	.founder_wrap .founder_block .copy_block .inner{ padding: 15px 0 0;}
+} 
+
+@media(max-width:767px){
+	.banner_section .copy_block{ padding: 0; text-align: center;}
+	.story_block ul li > a .inner{ padding: 25px;}
+	.story_block ul li > a .head img{ width: 50px;}
+	.story_block ul li > a h3{ font-size: 24px;}
+	.product_carousel .item .product_img{ width: 100%;}
+	.product_carousel .item .product_des{ width: 100%; padding: 0; text-align: center;}
+	.product_carousel .item .product_img > img{ max-width: 200px;}
+	.product_carousel .item .product_img .shadow{ width: 80px; height: 80px;}
+	.owl-carousel .owl-dots{ position: static; padding-top: 20px;}
+	.product_carousel{ padding: 0;}
+	.heading h3, .heading h4{ font-size: 48px; line-height: normal;}
+	.bottom_footer{ margin-top: 10px;}
+	.bottom_footer p span{ display: block; padding-top: 10px;}
+	.bottom_footer ul > li > a{ font-size: 12px;}
+	.bottom_footer p img{ height: 30px;}
+	.range_block{ padding: 20px;}
+	.range_block .heading h2{ font-size: 24px;}
+	.range_block .nav-tabs > li > a{ font-size: 16px;}
+	.range_inpt{ position: relative; top: -30px; width: 100px}
+	.total_bloack{ padding: 20px 0;}
+	.total_bloack ul > li{ padding-right: 20px; font-size: 14px; line-height: normal;}
+	.total_bloack ul > li span{ font-size: 20px; padding-top: 5px;}
+	.partner_section .map_block{ width: 320px;}
+	.circle_dots li span img{ width: 10px;}
+	.partner_section{ overflow: hidden;}
+	.partner_section .copy_block ul > li{ padding-left: 80px;}
+	.heading{ text-align: center;}
+	.heading h2{ font-size: 24px; padding-left: 0; left: 0; width: 100%;}
+	.who_we_are .heading h2{ font-size: 28px;}
+	footer .flexbox .col-3{ width: 100%; border-bottom: 1px solid #fff; padding-bottom: 10px; margin-bottom: 20px;}
+	footer p{ padding-bottom: 20px;}
+	footer h3{ padding-bottom: 10px; position: relative;}
+	footer .flexbox .col-3:last-child{ border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
+	.accrd_body{ display: none;}
+	footer h3 .fa { display: block; position: absolute; right: 15px; top: 35%; font-size: 22px; transform: translateY(-50%);}
+	footer .flexbox .col-3:last-child h5{ padding-top: 40px; padding-bottom: 10px;}
+	.contact_section p{ font-size: 13px; line-height: 20px; padding-bottom: 20px;}
+	.contact_list > li{ font-size: 13px; line-height: 20px;}
+	.contact_section .col-sm-6 .col-sm-6{ width: 100%;}
+	.contact_section .form-group{ margin-bottom: 15px;}
+	.contact_section textarea.form-control{ height: 80px;}
+	.contact_map > iframe{ height: 300px;}
+	.slider-nav .slick-prev, .slider-nav .slick-next{ top: auto; bottom: 0;}
+	.slider-nav{ padding-right: 0; padding-bottom: 40px;}
+	.slider-nav .logo_img > img{ width: 100%; max-width: 280px; display: inline-block;}
+	.slider-nav .slick-prev::before{ content: url("../images/arrow-left-mobile.webp");}
+	.slider-nav .slick-next::before{ content: url("../images/arrow-right-mobile.webp");}
+	.slider-nav .slick-prev{ right: auto; left: 50%; transform: translateX(-30px);}
+	.slider-nav .slick-next{ right: 50%; transform: translateX(15px)}
+	.slider-nav h6{ font-size: 20px; line-height: normal;}
+	.slider-nav h6 span{ font-size: 14px; line-height: normal;}
+	.partner_section .copy_block{ text-align: center;}
+	.partner_section .copy_block ul{ flex-wrap: nowrap;}
+	.partner_section .copy_block ul > li{ padding: 0 15px; width: 50%;}
+	.slider-nav .slick-slide{ text-align: center;}
+	.assurance_section .copy_block{ text-align: center;}
+	.certificate_list{ justify-content: center;}
+	.certificate_list > li{ width: 50%; padding-bottom: 30px;}
+	.absstem_product{ padding: 40px 0 0;}
+	.benefit_list{ margin: 0 -5px;}
+	.benefit_list > li{ width: 50%; padding: 0 5px 10px;}
+	.benefit_list > li h5 span{ padding: 0 15px;}
+	.psa_panel .img_block{ padding: 20px 0 30px;}
+	.ed_wrap .col-6{ width: 100%;}
+	.td_wrap .col-6{ width: 100%;}
+	.compressor_panel .block .img_block{ width: 100%;}
+	.compressor_panel .block .copy_block{ width: 100%; padding: 20px;}
+	.compressor_panel .block.even .img_block{ order: 0;}
+	.applications_panel .block{ border: 2px solid #619dd8}
+	.applications_panel .block .img_block{ width: 100%; order: 0;}
+	.applications_panel .block .copy_block{ width: 100%; padding: 20px 20px 0;}
+	.applications_panel .block.even .copy_block{ padding: 20px 20px 0;}
+	.absstem_product .advantages_panel{ background-image: none; background-color: #fff; padding: 60px 0;}
+	.advantages_panel .pic_block{ display: block;}
+	.advantages_panel .copy_block{ width: 100%; padding: 20px 15px 0;}
+	.absstem_protect h4 span, .absstem_shield h4 span, .absstem_support h4 span, .amc_section h4 span{ font-size: 20px;}
+	.absstem_shield .col-xs-12{ padding-bottom: 30px;}
+	.absstem_shield{ padding-bottom: 30px;}
+	.absstem_support{ padding-bottom: 30px;}
+	.absstem_support .col-xs-12{ padding-bottom: 30px;}
+	.client_list > li{ width: 50%;}
+	.about_banner .copy_block{ padding-bottom: 30px;}
+	.city_list > li > a{ padding: 0 15px;}
+	.timeline_list{ padding: 50px 0;}
+	.timeline_list:before{ width: 16px; border-width: 3px; left: 17px;}
+	.timeline_list > li{ padding-bottom: 0; margin-bottom: 30px;}
+	.timeline_list > li .icon{ width: 50px; top: 50%; transform: translateY(-50%);}
+	.timeline_list > li .icon > img{ width: 100%; border-radius: 100%;}
+	.timeline_list > li .copy{ padding-left: 0;}
+	.timeline_list > li .copy .inner, .timeline_list > li.even .copy .inner{ padding-left: 60px; border-radius: 15px;}
+	.timeline_list > li .copy .inner h3{ font-size: 24px;}
+	.timeline_list > li .copy .inner p{ line-height: 20px;}
+	.timeline_list > li:last-child{ margin-bottom: 0;}
+	
+	
+}
+
+@media(max-width:639px){
+	.feature_list > li{ width: 50%;}
+	.shield_list > li{ width: 100%;}
+	.wwa_wrap .copy_block ul li{ width: 50%; border-bottom: 1px solid #c1c1c1; padding: 10px;}
+	.wwa_wrap .copy_block ul li:nth-child(2n+1){ border-left: none;}
+	.wwa_wrap .copy_block ul li:nth-child(3), .wwa_wrap .copy_block ul li:nth-child(4){ border-bottom: none;}
+	.founder_wrap .founder_block{ width: 100%; padding: 0;}
+	.founder_wrap .founder_block.even{ padding: 0;}
+	.founder_section{ padding-bottom: 30px;}
+	.ws_list > li{ width: 100%; padding: 20px; border-left: none; border-bottom: 1px solid #cccccc;}
+	.ws_list > li:first-child{ padding: 0 20px 20px;}
+}
+
+@media(max-width:479px){
+	.faq_block .heading, .location_section .heading, .about_partner .heading{ margin-bottom: 50px;}
+	.faq_block .heading h2, .location_section .heading h2, .about_partner .heading h2{ bottom: -25px; line-height: 30px;}
+}
