@@ -55,5 +55,7 @@ $route['products'] = 'home/products';
 $route['support'] = 'home/support';
 $route['partners'] = 'home/partners';
 $route['contact'] = 'home/contact';
+$route['enquiry'] = 'home/enquiry';
+$route['addcontact'] = 'home/addcontact';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

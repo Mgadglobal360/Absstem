@@ -14,8 +14,21 @@
 <link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/css/responsive.css">
 
-
-
+<style>
+.error {
+    color: #ff0000ba;
+}
+</style>
+<script type="text/javascript" src="<?= base_url()?>assets/js/jquery.min.js"></script>	
+<script type="text/javascript" src="<?= base_url()?>assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="<?= base_url()?>assets/js/bootstrap-slider.js"></script>
+<script type="text/javascript" src="<?= base_url()?>assets/js/aos.js"></script>	
+<script type="text/javascript" src="<?= base_url()?>assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="<?= base_url()?>assets/js/slick.js"></script>
+<script type="text/javascript" src="<?= base_url()?>assets/js/onscreen.js"></script>
+<script type="text/javascript" src="<?= base_url()?>assets/js/custom.js"></script>
+<script src="<?= base_url()?>assets/js/jquery.validate.min.js"></script>
+<script src="<?= base_url()?>assets/js/sweetalert.min.js"></script>
 </head>
 <body>
 
@@ -24,20 +37,20 @@
 		<div class="container">
 			<div class="navbar_header">
 				<div class="logo">
-					<a href="index.html">
+					<a href="<?= base_url()?>">
 						<img src="<?= base_url()?>assets/images/logo.webp" alt="">
 					</a>	
 				</div>
 			</div>
             <div class="navigation">
                 <ul class="">
-                    <li><a href="aboutus">About Us</a></li>
-                    <li><a href="products">Products</a></li>
-                    <li><a href="support">Support</a></li>     
+                    <li><a href="<?= base_url()?>aboutus">About Us</a></li>
+                    <li><a href="<?= base_url()?>products">Products</a></li>
+                    <li><a href="<?= base_url()?>support">Support</a></li>     
                     <li><a href="#">R & D</a></li>   
-                    <li><a href="partners">Partners</a></li>  
+                    <li><a href="<?= base_url()?>partners">Partners</a></li>  
                     <li><a href="#">Newsroom</a></li>  
-                    <li><a href="contact">Contact Us</a></li>                               
+                    <li><a href="<?= base_url()?>contact">Contact Us</a></li>                               
                     <li><a href="#"><i class="fa fa-search"></i></a></li>                               
                 </ul>                                 
             </div>
@@ -60,3 +73,13 @@
 			</li>
 		</ul>
 	</div>
+	<?php if($this->session->flashdata('success')){ ?>
+    <script>swal({
+                title: "<?php echo $this->session->flashdata('success');?>",
+                icon: "success",
+                timer: 3000,
+                showConfirmButton: false,
+                showCancelButton: false,               
+                type: 'success',
+            });</script>
+<?php } ?>

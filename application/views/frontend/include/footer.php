@@ -71,18 +71,6 @@
 		</div>
 	</footer>
 </main>
-	
-
-	
-<script type="text/javascript" src="<?= base_url()?>assets/js/jquery.min.js"></script>	
-<script type="text/javascript" src="<?= base_url()?>assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/bootstrap-slider.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/aos.js"></script>	
-<script type="text/javascript" src="<?= base_url()?>assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/slick.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/onscreen.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/custom.js"></script>
-
 <script>
 	$(window).scroll(function(){
 	'use strict';
@@ -182,6 +170,15 @@ $('.gallery_carousel').owlCarousel({
         }
       }
 	});
+
+function isNumberKey(evt) {
+   //alert(evt.keyCode);
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode !== 45 && charCode !== 46 && charCode > 31 && charCode !== 118 && charCode !== 86
+            && (charCode < 48 || charCode > 57))
+        return false;
+    return true;
+}
 
 </script>	
 

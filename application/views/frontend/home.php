@@ -35,18 +35,22 @@
 	<div class="form_block">
 		<a class="close_form"><img class="point" src="<?= base_url()?>assets/images/close.webp" alt=""></a>
 		<div class="inner">
-			<form>
+			 	
+				<form class="row enquiry-form" action="<?= base_url()?>enquiry" method="post">
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Your Name*">
+					<input type="text" class="form-control" placeholder="Your Name*" name="name">
+					<?php echo form_error('name'); ?> 
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Email ID*">
+					<input name="email" type="email" class="form-control" placeholder="Email ID*">
+					<?php echo form_error('email'); ?> 
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Contact No*">
+					<input name="mobile" type="text" class="form-control" placeholder="Contact No*" onkeypress="return isNumberKey(event)">
+					<?php echo form_error('mobile'); ?> 
 				</div>
 				<div class="form-group btn_wrap">
-					<button class="btn"><span>Submit</span></button>
+					<button class="btn" name="submit" value="submit"><span>Submit</span></button>
 				</div>
 			</form>
 		</div>
@@ -579,3 +583,48 @@
 	</div>
 </section>
 <?php $this->load->view('frontend/include/footer'); ?>
+<script>
+	jQuery.validator.addMethod("lettersonly", function(value, element) {
+		  return this.optional(element) || /^[a-z]+$/i.test(value);
+		}, "Only Letters allowed."); 
+	 $('.enquiry-form').validate({
+      rules: {
+        name: {
+          required: true,
+          lettersonly: true          
+        },
+        email: {
+          required: true,
+          email: true    
+        },
+        mobile: {
+          required: true         
+        }
+      },
+      messages: {
+        name: {
+          required: "Please enter Name"
+        },
+        email: {
+          required: "Please enter Email"
+        },
+        mobile: {
+          required: "Please enter Mobile"
+        }
+      },
+      errorElement: 'span',
+      errorPlacement: function (error, element) {
+        error.addClass('invalid-feedback');
+        element.closest('.form-group').append(error);
+      },
+      highlight: function (element, errorClass, validClass) {
+        $(element).addClass('is-invalid');
+      },
+      unhighlight: function (element, errorClass, validClass) {
+        $(element).removeClass('is-invalid');
+      },submitHandler: function(form) {
+        $(".lds-ellipsis").show();
+        form.submit();
+      }
+    });
+</script>

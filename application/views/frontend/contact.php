@@ -29,47 +29,56 @@
 						<h3 class="layer" data-speed=".7">Get in Touch</h3>
 					</div>
 					<p>Please fill out this form to tell us what you need. We will get in touch with you at the earliest. </p>
-					<form class="row">
+					<form class="row contact-form" method="post" action="<?= base_url()?>addcontact" >
 						<div class="col-sm-6 form-group">
-							<input type="text" class="form-control" placeholder="Your Name*">
+							<input type="text" name="name" class="form-control" placeholder="Your Name*">
+							<?php echo form_error('name'); ?>
 						</div>
 						<div class="col-sm-6 form-group">
-							<input type="email" class="form-control" placeholder="Email  ID*">
+							<input type="email" name="email" class="form-control" placeholder="Email  ID*">
+							<?php echo form_error('email'); ?>
 						</div>
 						<div class="col-sm-6 form-group">
-							<input type="text" class="form-control" placeholder="Company Name*">
+							<input type="text" name="company_name" class="form-control" placeholder="Company Name*">
+							<?php echo form_error('company_name'); ?>
 						</div>
 						<div class="col-sm-6 form-group">
-							<input type="text" class="form-control" placeholder="Contact No*">
+							<input type="text" name="mobile" class="form-control" placeholder="Contact No*" onkeypress="return isNumberKey(event)">
+							<?php echo form_error('mobile'); ?>
 						</div>
 						<div class="col-sm-6 form-group">
 							<div class="styled_select">
-								<select class="form-control">
-									<option selected>Select Country</option>
-									<option>India</option>
-									<option>USA</option>
+								<select class="form-control" name="country">
+									<option value='' selected>Select Country</option>
+									<?php 
+									
+									foreach($country as $val){?>
+										<option value="<?php echo $val['id'];?>"><?php echo $val['name'];?></option>
+									<?php }?>
 								</select>
+								<?php echo form_error('country'); ?>
 							</div>
 						</div>
 						<div class="col-sm-6 form-group">
 							<div class="styled_select">
-								<select class="form-control">
-									<option selected>Interested In*</option>
-									<option>MedO - Medical Oxygen Generator</option>
-									<option>Idos - Industrial Oxygen Generator</option>
-									<option>Ngen - Industrial Nitrogen Generator</option>
-									<option>Spares</option>
-									<option>Others</option>
+								<select class="form-control" name="intersted_in">
+									<option value='' selected>Interested In*</option>
+									<option value="1">MedO - Medical Oxygen Generator</option>
+									<option value="2">Idos - Industrial Oxygen Generator</option>
+									<option value="3">Ngen - Industrial Nitrogen Generator</option>
+									<option value="4">Spares</option>
+									<option value="5">Others</option>
 								</select>
+								<?php echo form_error('intersted_in'); ?>
 							</div>
 						</div>
 						<div class="col-sm-12">
-							<textarea class="form-control" placeholder="How can we Help you?*"></textarea>
+							<textarea class="form-control" name="message" placeholder="How can we Help you?*"></textarea>
+							<?php echo form_error('message'); ?>
 						</div>
 						<div class="col-sm-12 btn-block">
-							<button class="btn"><span>Submit</span></button>
+							<button class="btn" name="submit" value="submit"><span>Submit</span></button>
 						</div>
-					</form>
 				</div>
 				<div class="col-xs-12 faq_block">
 					<div class="heading">
@@ -111,3 +120,72 @@
 		</div>
 	</section>
 <?php $this->load->view('frontend/include/footer'); ?>
+<script>
+	jQuery.validator.addMethod("lettersonly", function(value, element) {
+		  return this.optional(element) || /^[a-z]+$/i.test(value);
+		}, "Only Letters allowed."); 
+	 $('.contact-form').validate({
+      rules: {
+        name: {
+          required: true,
+          lettersonly: true          
+        },
+        email: {
+          required: true,
+          email:true    
+        },
+        company_name: {
+          required: true    
+        },
+        mobile: {
+          required: true         
+        },
+        country: {
+          required: true         
+        },
+        intersted_in: {
+          required: true         
+        },
+        message: {
+          required: true         
+        }
+      },
+      messages: {
+        name: {
+          required: "Please enter Name"
+        },
+        email: {
+          required: "Please enter Email"
+        },
+        company_name: {
+          required: "Please enter Company Name"
+        },
+        mobile: {
+          required: "Please enter Contact No."
+        },
+        country: {
+          required: "Please enter Country"
+        },
+        intersted_in: {
+          required: "Please enter Intersted In."
+        },
+        message: {
+          required: "Please enter How can we help you."
+        }
+      },
+      errorElement: 'span',
+      errorPlacement: function (error, element) {
+        error.addClass('invalid-feedback');
+        element.closest('.form-group').append(error);
+      },
+      highlight: function (element, errorClass, validClass) {
+        $(element).addClass('is-invalid');
+      },
+      unhighlight: function (element, errorClass, validClass) {
+        $(element).removeClass('is-invalid');
+      },submitHandler: function(form) {
+        $(".lds-ellipsis").show();
+        form.submit();
+      }
+    });
+</script>
