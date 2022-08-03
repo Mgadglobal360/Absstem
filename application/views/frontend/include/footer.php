@@ -92,6 +92,7 @@
 	
 
 	$("#range1").slider({
+
 		tooltip: 'always',
 		tooltip_position:'bottom'
 	});
@@ -179,6 +180,67 @@ function isNumberKey(evt) {
         return false;
     return true;
 }
+
+$('.beds').on('change',function(){
+	var rang = parseInt($(this).val());
+	var data =  {
+        range : rang,
+        tab:'bed'
+      }
+	 $.ajax({
+            type: "Post",
+            url: "<?php echo base_url('calculate'); ?>",
+            data: data, 
+            dataType: 'json', 
+            success: function (data) {
+             	var rangval = data.total_bed;
+            	var total_anual = 	rangval*365*250;
+				var seven_per = total_anual*.7;
+				var anual_saveing  = total_anual-seven_per;
+				
+				$('.anual').html('₹ '+parseInt(anual_saveing).toLocaleString('en')+' /-');
+
+				//month
+				var total_anual_month = 	rangval*30*250;
+				var seven_per_month = total_anual_month*.7;
+				var anual_saveing_month  = total_anual_month-seven_per_month;
+				
+				$('.month').html('₹ '+parseInt(anual_saveing_month).toLocaleString('en')+' /-');
+            }
+        });
+	
+});
+
+$('.cylinder').on('change',function(){
+	var rang = parseInt($(this).val());
+	var data =  {
+        range : rang,
+        tab:'cylinder'
+      }
+	 $.ajax({
+            type: "Post",
+            url: "<?php echo base_url('calculate'); ?>",
+            data: data, 
+            dataType: 'json', 
+            success: function (data) {
+             	var rangval = data.cylinder_per_day;
+            	var total_anual = 	rangval*365*250;
+				var seven_per = total_anual*.7;
+				var anual_saveing  = total_anual-seven_per;
+				
+				$('.anual').html('₹ '+parseInt(anual_saveing).toLocaleString('en')+' /-');
+
+				//month
+				var total_anual_month = 	rangval*30*250;
+				var seven_per_month = total_anual_month*.7;
+				var anual_saveing_month  = total_anual_month-seven_per_month;
+				
+				$('.month').html('₹ '+parseInt(anual_saveing_month).toLocaleString('en')+' /-');
+            }
+        });
+	
+});
+
 
 </script>	
 

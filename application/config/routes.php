@@ -57,5 +57,6 @@ $route['partners'] = 'home/partners';
 $route['contact'] = 'home/contact';
 $route['enquiry'] = 'home/enquiry';
 $route['addcontact'] = 'home/addcontact';
+$route['calculate'] = 'home/calculate';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

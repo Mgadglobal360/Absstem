@@ -13,11 +13,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Dumping database structure for absstem
-DROP DATABASE IF EXISTS `absstem`;
-CREATE DATABASE IF NOT EXISTS `absstem` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `absstem`;
-
 -- Dumping structure for table absstem.ci_countries
 DROP TABLE IF EXISTS `ci_countries`;
 CREATE TABLE IF NOT EXISTS `ci_countries` (

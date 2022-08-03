@@ -61,6 +61,11 @@ class Home extends CI_Controller {
 				);
 				$data = $this->security->xss_clean($data);
 				$results = $this->pages_model->add_enquiry($data);
+
+				$this->load->helper('email_helper');
+				$messageU = $this->load->view('email_template/visiting_card_email_web',$data, true); 
+
+       			send_email('manish.gupta@adglobal360.com',"Enquery",$messageU);
 				$this->session->set_flashdata('success','Enquiry has been added successfully');
 				redirect(base_url('/'), 'refresh');
 			}
@@ -96,9 +101,23 @@ class Home extends CI_Controller {
 				);
 				$data = $this->security->xss_clean($data);
 				$results = $this->pages_model->add_contact($data);
+
+				$this->load->helper('email_helper');
+				$messageU = $this->load->view('email_template/visiting_card_email_web',$data, true); 
+				      
+       			send_email('manish.gupta@adglobal360.com',"Contact us",$messageU);
 				$this->session->set_flashdata('success','Contact has been added successfully');
 				redirect(base_url('contact'), 'refresh');
 			}
 		}
+	}
+
+	public function calculate()
+	{
+		$range = $this->input->post('range');
+		$tab = $this->input->post('tab');
+
+		$data = $this->pages_model->calculater($range,$tab);
+		echo json_encode(['total_bed'=>$data->total_bed,'cylinder_per_day'=>$data->cylinder_per_day]);
 	}
 }

@@ -352,10 +352,10 @@
                 <div class="r_block">
                     <div class="range_block">
 						<ul class="nav nav-tabs animated fadeInDownShort delay-500">
-							<li class="active">
+							<li class="active" data-val="bed">
 								<a href="#tab1" data-toggle="tab"><span>Bed</span></a>
 							</li>
-							<li>
+							<li data-val="cylinder">
 								<a href="#tab2" data-toggle="tab"><span>Cylinder</span></a>
 							</li>
 							<li class="hospital">in Hospital</li>
@@ -366,7 +366,7 @@
 									<input type="text" class="form-control" value="523">
 								</div>	
 								<div class="inner">
-									<input id="range1" type="text" data-slider-min="5" data-slider-max="1025" data-slider-step="1" data-slider-value="523"/>
+									<input id="range1" class="beds" type="text" data-slider-min="5" data-slider-max="1025" data-slider-step="1" data-slider-value="523"/>
 									<ul class="lbl_list">
 										<li>5</li>
 										<li>1025</li>
@@ -378,7 +378,7 @@
 									<input type="text" class="form-control" value="333">
 								</div>
 								<div class="inner">
-									<input id="range2" type="text" data-slider-min="5" data-slider-max="1025" data-slider-step="1" data-slider-value="333"/>
+									<input id="range2" class="cylinder" type="text" data-slider-min="5" data-slider-max="1025" data-slider-step="1" data-slider-value="333"/>
 									<ul class="lbl_list">
 										<li>5</li>
 										<li>1025</li>
@@ -391,8 +391,8 @@
 			</div>
 			<div class="total_bloack">
 				<ul>
-                    <li>Monthly Savings <span><span>₹</span> 53,541/-</span></li>
-                    <li>Annual Savings <span><span>₹</span> 642,500/-</span></li>
+                    <li>Monthly Savings <span class="month"><span>₹</span> 53,541/-</span></li>
+                    <li>Annual Savings <span class="anual"><span>₹</span> 642,500/-</span></li>
                 </ul>
 			</div>
 		</div>

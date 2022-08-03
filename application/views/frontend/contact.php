@@ -35,7 +35,7 @@
 							<?php echo form_error('name'); ?>
 						</div>
 						<div class="col-sm-6 form-group">
-							<input type="email" name="email" class="form-control" placeholder="Email  ID*">
+							<input type="email" name="email" class="form-control" placeholder="Email  ID*" >
 							<?php echo form_error('email'); ?>
 						</div>
 						<div class="col-sm-6 form-group">
@@ -123,7 +123,8 @@
 <script>
 	jQuery.validator.addMethod("lettersonly", function(value, element) {
 		  return this.optional(element) || /^[a-z]+$/i.test(value);
-		}, "Only Letters allowed."); 
+		}, "Only Letters allowed.");
+
 	 $('.contact-form').validate({
       rules: {
         name: {
@@ -132,7 +133,8 @@
         },
         email: {
           required: true,
-          email:true    
+          email:true,
+       		   
         },
         company_name: {
           required: true    
