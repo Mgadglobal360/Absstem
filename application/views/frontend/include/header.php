@@ -18,15 +18,9 @@
 .error {
     color: #ff0000ba;
 }
+
 </style>
 <script type="text/javascript" src="<?= base_url()?>assets/js/jquery.min.js"></script>	
-<script type="text/javascript" src="<?= base_url()?>assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/bootstrap-slider.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/aos.js"></script>	
-<script type="text/javascript" src="<?= base_url()?>assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/slick.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/onscreen.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/custom.js"></script>
 <script src="<?= base_url()?>assets/js/jquery.validate.min.js"></script>
 <script src="<?= base_url()?>assets/js/sweetalert.min.js"></script>
 </head>
