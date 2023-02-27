@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-function send_email($to = '', $subject  = '', $body = '', $attachment = '',$attachment2 = '', $cc = '')
+function send_email($to = '', $subject  = '', $body = '', $attachment = '', $cc = '')
     {
     	$controller =& get_instance();
        	$controller->load->helper('path'); 
@@ -32,11 +32,7 @@ function send_email($to = '', $subject  = '', $body = '', $attachment = '',$atta
 		}	
 		if($attachment != '')
 		{
-			$controller->email->attach($attachment);
-		}
-		if($attachment2 != '')
-		{
-			$controller->email->attach($attachment2);
+			$controller->email->attach(base_url()."your_file_path/" .$attachment);
 		}
 		if($controller->email->send()){
 			return "success";

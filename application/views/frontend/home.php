@@ -352,10 +352,10 @@
                 <div class="r_block">
                     <div class="range_block">
 						<ul class="nav nav-tabs animated fadeInDownShort delay-500">
-							<li class="active">
+							<li class="active" data-val="bed">
 								<a href="#tab1" data-toggle="tab"><span>Bed</span></a>
 							</li>
-							<li>
+							<li data-val="cylinder">
 								<a href="#tab2" data-toggle="tab"><span>Cylinder</span></a>
 							</li>
 							<li class="hospital">in Hospital</li>
@@ -363,7 +363,7 @@
 						<div class="tab-content">
 							<div class="tab-pane in active" id="tab1">
 								<div class="range_inpt">
-									<input type="text" class="form-control rang_in" value="523" readonly>
+									<input type="text" class="form-control" value="523">
 								</div>	
 								<div class="inner">
 									<input id="range1" class="beds" type="text" data-slider-min="5" data-slider-max="1025" data-slider-step="1" data-slider-value="523"/>
@@ -375,7 +375,7 @@
 							</div>
 							<div class="tab-pane" id="tab2">
 								<div class="range_inpt">
-									<input type="text" class="form-control rang_in" value="333" readonly>
+									<input type="text" class="form-control" value="333">
 								</div>
 								<div class="inner">
 									<input id="range2" class="cylinder" type="text" data-slider-min="5" data-slider-max="1025" data-slider-step="1" data-slider-value="333"/>

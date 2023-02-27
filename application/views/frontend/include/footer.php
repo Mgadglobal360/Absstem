@@ -71,15 +71,6 @@
 		</div>
 	</footer>
 </main>
-
-<script type="text/javascript" src="<?= base_url()?>assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/bootstrap-slider.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/aos.js"></script>	
-<script type="text/javascript" src="<?= base_url()?>assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/slick.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/onscreen.js"></script>
-<script type="text/javascript" src="<?= base_url()?>assets/js/custom.js"></script>
-
 <script>
 	$(window).scroll(function(){
 	'use strict';
@@ -190,10 +181,8 @@ function isNumberKey(evt) {
     return true;
 }
 
-
 $('.beds').on('change',function(){
 	var rang = parseInt($(this).val());
-	$('.rang_in').val(rang);
 	var data =  {
         range : rang,
         tab:'bed'
@@ -224,7 +213,6 @@ $('.beds').on('change',function(){
 
 $('.cylinder').on('change',function(){
 	var rang = parseInt($(this).val());
-	$('.rang_in').val(rang);
 	var data =  {
         range : rang,
         tab:'cylinder'
